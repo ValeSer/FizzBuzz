@@ -14,6 +14,10 @@ describe 'fizzbuzz' do
   end
 
   it 'expects 2' do
-    expect(fizzbuzz(2)).to eq '2'
+    expect(fizzbuzz(2)).to eq 2
+  end
+
+  it 'expects fizz' do
+    expect(fizzbuzz(27)).to eq 'fizz'
   end
 end
