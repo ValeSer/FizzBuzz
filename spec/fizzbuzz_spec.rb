@@ -6,6 +6,6 @@ describe 'fizzbuzz' do
   end
 
   it 'FizzBuzz fizz' do
-    expect(FizzBuzz('5')). to eq 'buzz'
+    expect(FizzBuzz('5')).to eq 'buzz'
   end
 end
