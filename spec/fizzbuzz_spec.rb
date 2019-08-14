@@ -20,4 +20,7 @@ describe 'fizzbuzz' do
   it 'expects fizz' do
     expect(fizzbuzz(27)).to eq 'fizz'
   end
+  it 'expects fizzbuzz' do
+    expect(fizzbuzz(45)).to eq 'fizzbuzz'
+  end
 end
